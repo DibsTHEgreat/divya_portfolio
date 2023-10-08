@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { XMarkIcon } from "@heroicons/react/24/solid";
+import Image from 'next/image';
 
 const ImageModal = ({ imgUrl, onClose }) => {
   return (
@@ -12,7 +13,7 @@ const ImageModal = ({ imgUrl, onClose }) => {
         >
           <XMarkIcon className="w-6 h-6" />
         </button>
-        <img src={imgUrl} alt="Enlarged Project Image" className="w-full h-auto rounded-md" />
+        <Image src={imgUrl} alt="Enlarged Project Image" className="w-full h-auto rounded-md" />
       </div>
     </div>
   );

@@ -43,7 +43,7 @@ const ProjectSection = () => {
   return (
     <>
       <h2 className="text-center text-4xl font-bold text-black mt-4 mb-8 md:mb-12">
-        See What I'm Working On
+        See What I&apos;m Working On
       </h2>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (

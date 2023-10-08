@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="col-span-7 flex flex-col justify-center items-center lg:place-items-start">
         <h1 className="text-black max-w-2xl mb-4 lg:text-6xl text-2xl font-extrabold pb-11">
           <span className="text-transparent text-5xl md:text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-            Hello, I'm{" "}
+            Hello, I&apos;m{" "}
           </span>{" "}
           <br></br>
           <TypeAnimation
@@ -42,7 +42,7 @@ const HeroSection = () => {
           />
         </h1>
         <p className="text-black mb-6 textl-lg lg:text-xl">
-            Hello, welcome to my portfolio! I'm a 21-year-old student at the University of Lethbridge studying
+            Hello, welcome to my portfolio! I&apos;m a 21-year-old student at the University of Lethbridge studying
             Computer Science and Business Management.
         </p>
         <div>

@@ -28,7 +28,7 @@ const AboutSection = () => {
           </p>
           <h2 className="text-4xl font-bold text-black mb-4">My Skills</h2>
           <p className="text-black text-base md:text-lg mb-6">
-            Throughout my studies, I've developed a solid grasp of software development, 
+            Throughout my studies, I&apos;ve developed a solid grasp of software development, 
             data analytics, and web development concepts. My skills include:
           </p>
           <ul className=" list-disc grid grid-cols-2 md:grid-cols-3 gap-4 text-base md:text-lg">
