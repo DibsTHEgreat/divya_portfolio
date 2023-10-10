@@ -36,7 +36,7 @@ const AboutSection = () => {
             <li>Python</li>
             <li>C++</li>
             <li>JavaScript</li>
-            <li>SASS</li>
+            <li>SAAS</li>
             <li>Next.js</li>
             <li>Data Analytics</li>
             <li>HTML</li>

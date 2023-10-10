@@ -15,7 +15,7 @@ const projectsData = [
   {
     id: 2,
     title: "Admin Dashboard",
-    description: "Administrator dashboard (SASS) which controls the e-commerce website. Provides ux-friendly uses, and data visualization. Unfortunately, not accessible to the public.",
+    description: "Administrator dashboard (SAAS) which controls the e-commerce website. Provides ux-friendly uses, and data visualization. Unfortunately, not accessible to the public.",
     link: "https://ecommerce-admin-pormg4tlz-dibsthegreat.vercel.app/",
     image: "/images/projects/test2.png",
     tag: ["All", "Software"],
