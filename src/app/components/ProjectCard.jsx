@@ -31,7 +31,7 @@ export const ProjectCard = ({ imgUrl, title, description, visitLink }) => {
   };
 
   return (
-    <div className="group relative overflow-hidden hover:shadow-lg hover:bg-white hover:bg-opacity-80 hover:ring-2 hover:ring-blue-500 transition-all duration-500 rounded-xl ">
+    <div className="group relative overflow-hidden hover:shadow-2xl hover:bg-opacity-80 hover:ring-2 hover:ring-blue-500 transition-all duration-500 rounded-xl ">
       <div
         className="h-52 md:h-75 rounded-t-xl relative cursor-pointer"
         onClick={openModal}

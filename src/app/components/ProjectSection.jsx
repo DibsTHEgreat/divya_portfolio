@@ -15,13 +15,13 @@ const projectsData = [
   {
     id: 2,
     title: "Admin Dashboard",
-    description: "Administrator dashboard which controls the e-commerce website. Using database management logic and more. Unfortunately, not accessible to the public.",
+    description: "Administrator dashboard (SASS) which controls the e-commerce website. Provides ux-friendly uses, and data visualization. Unfortunately, not accessible to the public.",
     link: "https://ecommerce-admin-pormg4tlz-dibsthegreat.vercel.app/",
     image: "/images/projects/test2.png",
     tag: ["All", "Software"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Personal Github Repository",
     description: "This GitHub repository serves as a central hub for my portfolio of coding projects. These projects showcase my skills, creativity, and dedication to the field of software development.",
     link: "https://github.com/DibsTHEgreat",
