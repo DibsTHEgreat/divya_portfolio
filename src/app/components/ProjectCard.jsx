@@ -39,7 +39,7 @@ export const ProjectCard = ({ imgUrl, title, description, visitLink }) => {
       >
         <div className="overlay absolute top-0 left-0 w-full h-full"></div>
       </div>
-      <div className="text-black rounded-b-xl bg-[#AFB0B3] py-6 px-4">
+      <div className="text-black rounded-b-xl bg-gradient-to-b from-blue-300 to-blue-400 py-6 px-4">
         <h5 className="text-xl font-semibold mb-2 text-center">{title}</h5>
         <p className="text-black">{description}</p>
         <div className="flex justify-center mt-4 space-x-4">
