@@ -44,13 +44,13 @@ export const ProjectCard = ({ imgUrl, title, description, visitLink }) => {
         <p className="text-black">{description}</p>
         <div className="flex justify-center mt-4 space-x-4">
           <button
-            className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md"
+            className="bg-gradient-to-r from-blue-400 to-blue-600 hover:bg-gradient-to-r hover:from-blue-800 hover:to-blue-600 text-white py-2 px-4 rounded-md"
             onClick={openModal}
           >
             Preview
           </button>
           <a href={visitLink} target="_blank" rel="noopener noreferrer">
-            <button className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md">
+            <button className="bg-gradient-to-r from-blue-400 to-blue-600 hover:bg-gradient-to-r hover:from-blue-800 hover:to-blue-600 text-white py-2 px-4 rounded-md">
               Visit Site
             </button>
           </a>
