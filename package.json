@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "flowbite": "^1.8.1",
     "next": "^13.5.4",
     "nodemailer": "^6.9.5",
     "react": "latest",

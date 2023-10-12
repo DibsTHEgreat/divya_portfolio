@@ -1,25 +1,8 @@
 "use client";
 import React, { useState } from 'react';
-import { XMarkIcon } from "@heroicons/react/24/solid";
-import Image from 'next/image';
+import Preview from './Preview';
 
-const ImageModal = ({ imgUrl, onClose }) => {
-  return (
-    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75 z-50">
-      <div className="bg-white rounded-lg shadow-lg p-4 max-w-screen-md relative">
-        <button
-          className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
-          onClick={onClose}
-        >
-          <XMarkIcon className="w-6 h-6" />
-        </button>
-        <Image src={imgUrl} alt="Enlarged Project Image" className="w-full h-auto rounded-md" />
-      </div>
-    </div>
-  );
-};
-
-export const ProjectCard = ({ imgUrl, title, description, visitLink }) => {
+export const ProjectCard = ({ previewImage, title, description, images, visitLink }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
@@ -35,7 +18,7 @@ export const ProjectCard = ({ imgUrl, title, description, visitLink }) => {
       <div
         className="h-52 md:h-75 rounded-t-xl relative cursor-pointer"
         onClick={openModal}
-        style={{ background: `url(${imgUrl})`, backgroundSize: 'cover' }}
+        style={{ background: `url(${previewImage})`, backgroundSize: 'cover' }}
       >
         <div className="overlay absolute top-0 left-0 w-full h-full"></div>
       </div>
@@ -57,7 +40,7 @@ export const ProjectCard = ({ imgUrl, title, description, visitLink }) => {
         </div>
       </div>
       {isModalOpen && (
-        <ImageModal imgUrl={imgUrl} onClose={closeModal} />
+        <Preview images={images} onClose={closeModal} />
       )}
     </div>
   );
