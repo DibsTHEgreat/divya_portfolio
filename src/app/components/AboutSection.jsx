@@ -10,7 +10,7 @@ const AboutSection = () => {
       <div className="w-full md:w-1/2 mb-6 md:mb-0">
           <div className="relative h-0 pb-[100%] border-solid border-4 border-blue-600 rounded-2xl shadow-2xl">
             <Image
-              src="/images/me2.JPG"
+              src="/images/me.JPG"
               alt="A random picture"
               layout="fill"
               objectFit="cover"
