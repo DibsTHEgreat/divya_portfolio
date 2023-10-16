@@ -8,13 +8,13 @@ const AboutSection = () => {
     <section className="text-black py-16 md:pt-20">
       <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-8">
       <div className="w-full md:w-1/2 mb-6 md:mb-0">
-          <div className="relative h-0 pb-[100%] border-solid border-4 border-blue-600 rounded-full shadow-2xl">
+          <div className="relative h-0 pb-[100%] border-solid border-4 border-blue-600 rounded-2xl shadow-2xl">
             <Image
-              src="/images/me.JPG"
+              src="/images/me2.JPG"
               alt="A random picture"
               layout="fill"
               objectFit="cover"
-              className="rounded-full"
+              className="rounded-xl"
             />
           </div>
         </div>
